@@ -21,6 +21,11 @@ interface JasmineNodeOptsConfig {
 
 interface JasmineNodeOpts {
     /**
+     * Default Timeout Interval for Jasmine operations.
+     * @default: 60000
+     */
+    defaultTimeoutInterval?: number;
+    /**
      * Array of filepaths (and globs) relative to spec_dir to include before
      * jasmine specs.
      * @default `[]`
